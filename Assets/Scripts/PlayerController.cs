@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.Translate (0, 0, 0.1f);
 
-        if (Input.GetKey (KeyCode.Space)) {
+        if (Input.GetKey (KeyCode.UpArrow)) {
             jump = true;
         }
         else {

@@ -37,7 +37,6 @@ public class PlayerController : MonoBehaviour
 
         if (jump == true) {
             anim.SetBool ("isJump", jump);
-            transform.Translate (0, 0.1f, 0.1f);
         }
         else if (jump == false) {
             anim.SetBool ("isJump", jump);
@@ -45,7 +44,6 @@ public class PlayerController : MonoBehaviour
 
         if (slide == true) {
             anim.SetBool ("isSlide", slide);
-            transform.Translate (0, 0, 0.1f);
         }
         else if (slide == false) {
             anim.SetBool ("isSlide", slide);

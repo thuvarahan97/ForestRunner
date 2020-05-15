@@ -159,7 +159,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.5
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -505,7 +505,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &5755252562429512071
+--- !u!1001 &7987610893225272994
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -574,8 +574,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6169564718204021154, guid: 4ad5d83f34c260843b06372d6f2d2eeb,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3
+      propertyPath: m_LocalPosition.x
+      value: -1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad5d83f34c260843b06372d6f2d2eeb, type: 3}

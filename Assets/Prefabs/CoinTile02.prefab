@@ -9584,7 +9584,7 @@ GameObject:
   - component: {fileID: 7421397500122031255}
   - component: {fileID: 4252682826031431368}
   - component: {fileID: 3649147447647314138}
-  - component: {fileID: 8080202570224174674}
+  - component: {fileID: 436391528}
   m_Layer: 0
   m_Name: GoldCoin (6)
   m_TagString: Coin
@@ -9633,7 +9633,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174674
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391528
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9740,7 +9742,7 @@ GameObject:
   - component: {fileID: 6099343375074487116}
   - component: {fileID: 5766289706105289554}
   - component: {fileID: 4178818483748274493}
-  - component: {fileID: 8080202570224174675}
+  - component: {fileID: 436391527}
   m_Layer: 0
   m_Name: GoldCoin (7)
   m_TagString: Coin
@@ -9789,7 +9791,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174675
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391527
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9896,7 +9900,7 @@ GameObject:
   - component: {fileID: 2852391637108916531}
   - component: {fileID: 6072067983921307461}
   - component: {fileID: 856116581547521192}
-  - component: {fileID: 8080202570224174700}
+  - component: {fileID: 436391526}
   m_Layer: 0
   m_Name: GoldCoin (8)
   m_TagString: Coin
@@ -9945,7 +9949,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174700
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391526
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10052,7 +10058,7 @@ GameObject:
   - component: {fileID: 2169749775200090801}
   - component: {fileID: 2383968875217801328}
   - component: {fileID: 6336346824945687779}
-  - component: {fileID: 8080202570224174701}
+  - component: {fileID: 436391525}
   m_Layer: 0
   m_Name: GoldCoin (9)
   m_TagString: Coin
@@ -10101,7 +10107,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174701
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391525
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10208,7 +10216,7 @@ GameObject:
   - component: {fileID: 5295514301817700146}
   - component: {fileID: 7275735424565117281}
   - component: {fileID: 6242016733614218604}
-  - component: {fileID: 8080202570224174678}
+  - component: {fileID: 436391532}
   m_Layer: 0
   m_Name: GoldCoin (2)
   m_TagString: Coin
@@ -10257,7 +10265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174678
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391532
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10364,7 +10374,7 @@ GameObject:
   - component: {fileID: 7959235110707805835}
   - component: {fileID: 1436281980600622121}
   - component: {fileID: 5463521613629113954}
-  - component: {fileID: 8080202570224174679}
+  - component: {fileID: 436391531}
   m_Layer: 0
   m_Name: GoldCoin (3)
   m_TagString: Coin
@@ -10413,7 +10423,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174679
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391531
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10520,7 +10532,7 @@ GameObject:
   - component: {fileID: 6042681775558974956}
   - component: {fileID: 1123678046362230750}
   - component: {fileID: 5142079605140645650}
-  - component: {fileID: 8080202570224174672}
+  - component: {fileID: 436391530}
   m_Layer: 0
   m_Name: GoldCoin (4)
   m_TagString: Coin
@@ -10569,7 +10581,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174672
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391530
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10676,7 +10690,7 @@ GameObject:
   - component: {fileID: 1691296632681689085}
   - component: {fileID: 8942294612460038457}
   - component: {fileID: 1022662164049759853}
-  - component: {fileID: 8080202570224174673}
+  - component: {fileID: 436391529}
   m_Layer: 0
   m_Name: GoldCoin (5)
   m_TagString: Coin
@@ -10725,7 +10739,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174673
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391529
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10832,7 +10848,7 @@ GameObject:
   - component: {fileID: 6011256011397925102}
   - component: {fileID: 84144050746352239}
   - component: {fileID: 5711724805966821132}
-  - component: {fileID: 8080202570224174676}
+  - component: {fileID: 436391534}
   m_Layer: 0
   m_Name: GoldCoin
   m_TagString: Coin
@@ -10881,7 +10897,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174676
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391534
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10988,7 +11006,7 @@ GameObject:
   - component: {fileID: 2151998117998124369}
   - component: {fileID: 7461578774847607772}
   - component: {fileID: 2647585572117585951}
-  - component: {fileID: 8080202570224174677}
+  - component: {fileID: 436391533}
   m_Layer: 0
   m_Name: GoldCoin (1)
   m_TagString: Coin
@@ -11037,7 +11055,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goUp: 0
---- !u!82 &8080202570224174677
+  myAudio: {fileID: 436391525}
+  coinCollection: {fileID: 8300000, guid: 5e1e34e287944564eb29b35d16544be7, type: 3}
+--- !u!82 &436391533
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

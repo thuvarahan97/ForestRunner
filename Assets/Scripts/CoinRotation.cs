@@ -30,7 +30,7 @@ public class CoinRotation : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Player") {
             goUp = true;
-            myAudio = PlayOneShot (coinCollection, 1);
+            myAudio.PlayOneShot (coinCollection, 1);
         }
     }
 }

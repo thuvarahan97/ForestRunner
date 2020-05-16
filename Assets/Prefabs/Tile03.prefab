@@ -276,7 +276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2569516771105465443}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8, y: -3, z: 16.668121}
+  m_LocalPosition: {x: -2.2, y: -3, z: 16.668121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8245270528296270477}
@@ -504,8 +504,8 @@ GameObject:
   - component: {fileID: 5030452230410780460}
   - component: {fileID: 5030452230410780463}
   m_Layer: 0
-  m_Name: Top Wall (1)
-  m_TagString: Untagged
+  m_Name: Obstacle
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 5030452230622185909}
   m_Layer: 0
   m_Name: PlayerTrigger
-  m_TagString: Untagged
+  m_TagString: PlayerTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

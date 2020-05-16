@@ -63,5 +63,9 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "PlayerTrigger") {
             Destroy (trigger.gameObject);
         }
+
+        if (other.gameObject.tag == "Coin") {
+            Destroy (other.gameObject, 0.5f);
+        }
     }
 }

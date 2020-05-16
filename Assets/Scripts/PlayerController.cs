@@ -17,11 +17,16 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 capsColCenter;
 
+    private Rigidbody rigidBody;
+
     void Start()
     {
         anim = GetComponent<Animator> ();
+
         capsuleCollider = GetComponent<CapsuleCollider> ();
         capsColCenter = capsuleCollider.center;
+
+        rigidBody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -54,13 +59,15 @@ public class PlayerController : MonoBehaviour
 
         if (slide == true) {
             anim.SetBool ("isSlide", slide);
-            capsuleCollider.height = 1.262869f;
-            capsColCenter.y = 0.4664346f;
+            rigidBody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+            capsuleCollider.height = 1.600143f;
+            capsColCenter.y = 0.6350716f;
             capsuleCollider.center = capsColCenter;
             transform.Translate (0, 0, 0.1f);
         }
         else if (slide == false) {
             anim.SetBool ("isSlide", slide);
+            rigidBody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
             capsuleCollider.height = 2.05f;
             capsColCenter.y = 0.86f;
             capsuleCollider.center = capsColCenter;

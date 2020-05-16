@@ -60,16 +60,16 @@ public class PlayerController : MonoBehaviour
         if (slide == true) {
             anim.SetBool ("isSlide", slide);
             rigidBody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-            capsuleCollider.height = 1.600143f;
-            capsColCenter.y = 0.6350716f;
+            capsColCenter.y = 0.7694536f;
+            capsuleCollider.height = 1.868907f;
             capsuleCollider.center = capsColCenter;
             transform.Translate (0, 0, 0.1f);
         }
         else if (slide == false) {
             anim.SetBool ("isSlide", slide);
             rigidBody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-            capsuleCollider.height = 2.05f;
             capsColCenter.y = 0.86f;
+            capsuleCollider.height = 2.05f;
             capsuleCollider.center = capsColCenter;
         }
 

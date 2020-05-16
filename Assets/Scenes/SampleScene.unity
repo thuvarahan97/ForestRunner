@@ -487,7 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prefabs:
   - {fileID: 5755252562554789614, guid: 4ad5d83f34c260843b06372d6f2d2eeb, type: 3}
-  - {fileID: 6860254628060216325, guid: e896e916b16ead348bd66de0c84df656, type: 3}
+  - {fileID: 3988295153102693082, guid: c6ad3ae2026058f498e889ce936a760b, type: 3}
   - {fileID: 1944223093836239777, guid: 0d9574f2c2295304ba135a12953fde42, type: 3}
   BackArea: 100
   PrefabsOnScreen: 4

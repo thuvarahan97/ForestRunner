@@ -6,11 +6,13 @@ public class CoinRotation : MonoBehaviour
 {
     
     public bool goUp;
+    public AudioSource myAudio;
+    public AudioClip coinCollection;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        myAudio = GetComponent<AudioSource> ();
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class CoinRotation : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Player") {
             goUp = true;
+            myAudio = PlayOneShot (coinCollection, 1);
         }
     }
 }

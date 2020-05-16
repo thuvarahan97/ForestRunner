@@ -13,9 +13,15 @@ public class PlayerController : MonoBehaviour
 
     public Animator anim;
 
+    public CapsuleCollider capsuleCollider;
+
+    private Vector3 capsColCenter;
+
     void Start()
     {
         anim = GetComponent<Animator> ();
+        capsuleCollider = GetComponent<CapsuleCollider> ();
+        capsColCenter = capsuleCollider.center;
     }
 
     // Update is called once per frame
@@ -48,10 +54,16 @@ public class PlayerController : MonoBehaviour
 
         if (slide == true) {
             anim.SetBool ("isSlide", slide);
+            capsuleCollider.height = 1.262869f;
+            capsColCenter.y = 0.4664346f;
+            capsuleCollider.center = capsColCenter;
             transform.Translate (0, 0, 0.1f);
         }
         else if (slide == false) {
             anim.SetBool ("isSlide", slide);
+            capsuleCollider.height = 2.05f;
+            capsColCenter.y = 0.86f;
+            capsuleCollider.center = capsColCenter;
         }
 
         //Player Control End
